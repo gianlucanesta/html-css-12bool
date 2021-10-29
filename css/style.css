@@ -1,0 +1,19 @@
+.container {
+    background-color: pink;
+    margin-bottom: 10px;
+}
+
+.box {
+    background-color: blue;
+    font-size: 1em;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    height: 25px;
+}
+
+.row {
+    background-color: green;
+    
+}
+
