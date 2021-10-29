@@ -1,5 +1,5 @@
 .container {
-    background-color: pink;
+    /* background-color: pink; */
     margin-bottom: 10px;
 }
 
@@ -8,17 +8,18 @@
     font-size: 1em;
     color: white;
     border: 1px solid white;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     height: 40px;
 
     display: flex;
     align-items: center;
     
 }
-
+/* 
 .row {
     background-color: green;  
-}
+} */
 
 .nested-box {
     background-color: lightgreen;
@@ -26,4 +27,7 @@
     border: 1px solid white;
     height: 20px;
     margin: 1px;
+
+    display: flex;
+    justify-content: center;
 }

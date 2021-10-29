@@ -6,13 +6,20 @@
 }
 
 .container {
+    width: 100%;
     /* max-width: 1170px; */
     margin: 0 auto;
+}
+
+[class*="col-"]{
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 .row {
     display: flex;
     flex-direction: row;
+    justify-content: right;
     flex-wrap: wrap;
 }
 
