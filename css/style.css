@@ -4,12 +4,12 @@
 }
 
 .box {
-    background-color: blue;
+    background-color: #006cfa;
     font-size: 1em;
     color: white;
     border: 1px solid white;
     text-align: center;
-    height: 25px;
+    height: 30px;
 }
 
 .row {
